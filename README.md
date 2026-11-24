@@ -1,6 +1,8 @@
 # egui-dither-bg
 
-Two-pass GPU GLSL ordered-dither (`Bayer 8x8`) interactive background for `egui` / `eframe` (`glow` backend), extracted from [Covalos](https://www.matiasgs.com/work/covalos).
+Two-pass GPU GLSL ordered-dither (`Bayer 8x8`) interactive background for `egui` / `eframe` (`glow` backend).
+
+> Extracted from **[Covalos](https://www.matiasgs.com/work/covalos)** (native Rust IDE by **[Aeros](https://aerosdev.com)**), where it powers the home workbench background at minimal CPU overhead.
 
 ## Features
 
