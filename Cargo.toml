@@ -1,0 +1,12 @@
+[package]
+name = "egui-dither-bg"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+description = "Two-pass GPU GLSL ordered-dither (Bayer 8x8) interactive background for egui and eframe (glow backend)"
+repository = "https://github.com/DevModee/egui-dither-bg"
+keywords = ["egui", "eframe", "shader", "glsl", "dither"]
+categories = ["gui", "graphics", "rendering"]
+
+[dependencies]
+eframe = { version = "0.33.3", default-features = false, features = ["default_fonts", "glow", "wayland", "x11"] }
